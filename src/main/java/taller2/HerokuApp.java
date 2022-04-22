@@ -13,6 +13,6 @@ public class HerokuApp {
             "By.cssSelector(.container select[name='select2'] option:last-child)";
     String firstTableIcelandRowLandAreaColumn =
             "By.cssSelector(.container table[summary] tbody tr:nth-child(4) td:last-child)";
-    // hyphenation title
+    String hyphenationTitle = "By.cssSelector(.container table:last-of-type + h2 + p)";
     String javascriptTitle = "By.cssSelector(.container p.limited.hyphens + h3)";
 }
